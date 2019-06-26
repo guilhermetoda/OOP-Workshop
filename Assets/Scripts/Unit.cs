@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Unit : MonoBehaviour, IJump, IWeapon
+public class Unit : MonoBehaviour
 {
     private IWeapon _weapon;
     private IJump _jump;
